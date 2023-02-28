@@ -1,0 +1,62 @@
+section {
+  background-color: black; // to identify section 
+
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 8vh;
+
+  .register {
+    background-color: white; // to identify section 
+
+    padding: 2vh;
+    align-items: flex-start;
+    min-width: 50vw;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  span {
+    margin-bottom: 3vh;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5vh;
+  }
+  input {
+    margin-bottom: 1vh;
+  }
+  .feedback {
+    margin-bottom: 0.5vh;
+  }
+
+  .instructions {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1vw;
+  }
+
+  button {
+    margin-bottom: 2vh;
+  }
+
+  .sign-in {
+    display: flex;
+    flex-direction: column;
+    p {
+      font-size: 1.5vh;
+    }
+  }
+}
+
+.offscreen {
+  position: absolute;
+  opacity: 0;
+}
